@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranhão</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <div class="corpo">
+        <header>
+            <div class="cabecalho">
+                <h1><a href="index.html"><img src="assets/logo.png" class="logo"></a></h1>
+                <nav>
+                    <div class="nav-list">
+                        <ul>
+                            <li>
+                                <a id="inicio" href="#Início" onclick = 'inicio()'>Início</a>
+                                <a id="encantos" href="#Encantos" href="javascrip:void(0);" onclick = 'encantos()'>Encantos</a>
+                                <a id="cultura" href="#Cultura" onclick="cultura()">Cultura e Culinária</a>
+                                <a id="sobre" href="#Sobre" onclick="sobre()">Sobre</a>
+                                <a id="contatos" href="#Contato" onclick="contato()">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section-banner">
+                <div class="banner">
+                    <img src="assets/banner.png">
+                </div>
+            </section>
+            <div class="div-encantos">
+                <h2>Encantos</h2>
+                <div class="box-images">
+                    <img id="imagem">
+                </div>
+                <div class="div-texto"></div>
+                <p>
+                    O estado do Maranhão é conhecido por possuir a maior diversidade de ecossistemas do país. São praias, floresta amazônica, mangues, cerrado, rios, cachoeiras, lagoas de águas cristalinas e muito mais.
+                </p>
+                <p>
+                    É bastante procurado por turistas do mundo todo, turistas de diversas idades, gostos e estilos. Afinal o estado tem muito a oferecer tanto para os aventureiros, os amantes da natureza ou para os que procuram paz e tranquilidade.
+                </p>
+                <p>
+                    O Parque dos Lençóis Maranhenses, é o local mais procurado, um dos mais bonitos do estado onde uma imensidão de areias brancas e dunas se encontram em meio a diversas lagoas de águas cristalinas. Uma paisagem de tirar o fôlego. Vá preparado, em algumas das lagoas é possível entrar e aproveitar para tomar banho.
+                </p>
+                <p>
+                    Para quem busca aventura e adrenalina, uma boa pedida é conhecer o Parque Nacional da Chapada das Mesas. São muitas trilhas, cachoeiras, morros, cavernas, rios e cânions, o ideal é procurar um guia turístico da região para assim conhecer os melhores pontos desse parque e curtir a paisagem com segurança.
+                </p>
+                <p>
+                    São Luís, a capital do estado, também merece uma visita, já que a cidade possui um centro histórico com lindos casarões antigos, praças, museu, teatro, além das lindas praias.
+                </p>
+            </div>
+            <div class="div-cultura">
+                <h2>Cultura e Culinária</h2>
+                <div class="box-images-cultura">
+                    <img src="cultura/img01.jpg" id="imagemC">                   
+                </div>
+                <div class="div-texto"></div>
+                <h3 id="tituloCultura">Bumba meu boi</h3>
+                <p id="textoCultura">
+                    O Bumba meu boi é uma dança do folclore popular brasileiro muito marcante em São Luís do Maranhão. A dança gira em torno da lenda sobre a morte e ressurreição de um boi. O Bumba meu boi maranhense recebeu do IPHAN (Instituto do Patrimônio Histórico e Artístico Nacional) o título de Patrimônio Cultural do Brasil.
+                </p>
+                <div class="div-btn">
+                    <button class="btn" onclick="anterior()">Anterior</button>
+                    <button class="btn" onclick="proximo()">Próximo</button>
+                </div>
+            </div>
+            <div class="div-sobre">
+                <h2>Sobre</h2>
+                <div class="sub-div-sobre">
+                    <div class="sobre">
+                        <p>Os primeiros europeus a chegarem à área que hoje corresponde ao Estado do Maranhão foram os espanhóis, em 1500.</p>
+                        <p>Os portugueses tentaram retomar o território 35 anos depois, mas fracassaram. Em 1612, um grupo de 500 franceses munda a França Equinocial. O combate ao povoado por parte dos portugueses durou até 1515</p>
+                        <p>No período houve várias tréguas, mas os portugueses retomaram a área em definitivo. Em 1612, a Coroa instituía o Estado do Maranhão e Grão-Pará. O objetivo era melhorar a defesa da costa e os contatos com a metrópole.</p>
+                        <p>A vigilância não evitou uma nova investida estrangeira. Dessa vez, em 1641, os holandeses chegaram à região e ocuparam a ilha de São Luiz. O nome era uma homenagem a Luiz XIII. A permanência dos holandeses durou três anos.</p>
+                        <p>Quando os portugueses conseguiram consolidar o domínio na região, houve a separação de Maranhão e Grão-Pará, em 1774.</p>
+                        <p>O Maranhão é um dos estados de maior influência política portuguesa. Essa fato fez com que, somente em 1823, aceitasse a Independência do Brasil. O processo não foi pacífico e o fim resultou de uma batalha armada.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="div-footer">
+            <span>
+                <a href="https://www.instagram.com/hashi_sen01"><i class="bi bi-instagram" alt ='Instagram - Hashi Sen'></i></a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/matheus-c-2b794b205"><i class="bi bi-linkedin" alt = 'Linkedin - Matheus C.'></i></a>
+            </span>
+        </div>
+        <p>
+            Referências: <a href="referencia.html"><u>Clique Aqui!</u></a>
+        </p>
+        <p class="desenvol">Desenvoldor: Matheus Costa</p>
+    </footer>
+</body>
+</html>
